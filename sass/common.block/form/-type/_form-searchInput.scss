@@ -1,0 +1,11 @@
+.form-searchInput {
+  width: 100%;
+  background: $ice;
+  outline-color: $rust;
+  border-radius: 5px;
+  @include searchForm();
+}
+
+.form-searchInput::placeholder {
+  color: $slate;
+}

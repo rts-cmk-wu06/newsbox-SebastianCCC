@@ -1,0 +1,11 @@
+.form-button {
+  position: absolute;
+  right: $padding-size-md;
+  outline: none;
+  background: none;
+  @include searchForm();
+}
+
+.form-button > i {
+  color: $fossil;
+}

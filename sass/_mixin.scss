@@ -1,0 +1,10 @@
+@mixin h1-title() {
+  font-size: $font-size-lg;
+  font-weight: bold;
+  color: $drab;
+}
+
+@mixin searchForm() {
+  border: none;
+  padding: $base-padding;
+}

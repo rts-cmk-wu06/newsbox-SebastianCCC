@@ -9,3 +9,21 @@ $snow: #ffffff !default;
 $ice: #f0f3f4 !default;
 $fossil: #c8d1d3 !default;
 $sand: #b9b0a2 !default;
+
+// fonts
+$roboto: Roboto !default;
+
+// font sizes
+$font-size-sm: 14px !default;
+$font-size-md: 15px !default;
+$font-size-lg: 18px !default;
+$font-size-xl: 20px !default;
+$font-size-xxl: 30px !default;
+
+//spacing
+$base-padding: 10px !default;
+
+$padding-size-sm: $base-padding * 1.5 !default;
+$padding-size-md: $base-padding * 2 !default;
+$padding-size-lg: $base-padding * 2.5 !default;
+$padding-size-xl: $base-padding * 3 !default;
