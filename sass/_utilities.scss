@@ -4,7 +4,7 @@ $utilities: (
   'padding': (
     'prefix': 'p',
     'values': (
-      'default': base-padding,
+      'default': $base-padding,
       'sm': $padding-size-sm,
       'md': $padding-size-md,
       'lg': $padding-size-lg,
@@ -17,8 +17,40 @@ $utilities: (
       'n': none,
       'b': block,
       'f': flex,
+      'g': grid,
       'i': inline,
       'i-b': inline-block,
+    ),
+  ),
+  'flex': (
+    'prefix': 'f',
+    'values': (
+      '1': 1,
+      '0-1': 0.5,
+      '2-5': 2.5,
+      '3': 3,
+    ),
+  ),
+  'text-align': (
+    'prefix': 'ta',
+    'values': (
+      'l': left,
+      'r': right,
+      'c': center,
+    ),
+  ),
+  'align-items': (
+    'prefix': 'ai',
+    'values': (
+      's': start,
+      'e': end,
+      'c': center,
+    ),
+  ),
+  'align-self': (
+    'prefix': 'as',
+    'values': (
+      'c': center,
     ),
   ),
   'font-size': (
@@ -29,6 +61,27 @@ $utilities: (
       'lg': $font-size-lg,
       'xl': $font-size-xl,
       'xxl': $font-size-xxl,
+    ),
+  ),
+  'background': (
+    'prefix': 'bg',
+    'values': (
+      'lightgray': $lightgray,
+    ),
+  ),
+  'text-transform': (
+    'prefix': 'tt',
+    'values': (
+      'u': uppercase,
+    ),
+  ),
+  'color': (
+    'prefix': 'cr',
+    'values': (
+      'drab': $drab,
+      'sage': $sage,
+      'darkgray': $darkgray,
+      'slate': $slate,
     ),
   ),
   'justify-content': (

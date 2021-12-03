@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NewsBox Settings</title>
     <script src="https://kit.fontawesome.com/c8d7f3000a.js" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <link href="./dist/index.css" rel="stylesheet" />
+    <script src="./dist/loadLocalstorage.js" defer></script>
+    <script src="./dist/manageCategories.js" defer></script>
   </head>
 
   <body>
-    <div id="wrapper">
-      <header></header>
-      <main></main>
+    <div class="wrapper">
+      <header class="wrapper__header header">
+        <div class="header__menu menu d-g p-md">
+          <a href="index.html"><i class="fas fa-chevron-left font-xl"></i></a>
+          <h1 class="header__h1 h1">Newsbox settings</h1>
+        </div>
+      </header>
+      <main class="main bg-lightgray">
+        <div class="p-xl ta-c">
+          <h2 class="cr-sage font-xxl">Manage</h2>
+          <h3 class="cr-darkgray font-xl">Categories</h3>
+        </div>
+        <ul class="main__settingslist settingslist"></ul>
+      </main>
       <footer></footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="myjavascript.js"></script>
   </body>
 </html>

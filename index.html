@@ -5,25 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NewsBox</title>
     <script src="https://kit.fontawesome.com/c8d7f3000a.js" crossorigin="anonymous"></script>
-    <link href="./dist/index.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-    <script src="myjavascript.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link href="./dist/index.css" rel="stylesheet" />
+    <script src="./dist/loadLocalstorage.js" defer></script>
+    <script src="./dist/displayNews.js" defer></script>
+    <script src="./dist/swipe.js" defer></script>
+    <script src="./dist/save.js" defer></script>
   </head>
 
   <body>
     <div class="wrapper">
       <header class="wrapper__header header">
-        <div class="header__menu menu d-f ct-sb p-md">
-          <i class="fas fa-inbox font-xl"></i>
+        <div class="header__menu menu d-g p-md">
+          <a href="archive.html"><i class="fas fa-inbox font-xl"></i></a>
           <h1 class="header__h1 h1">Newsbox</h1>
-          <i class="fas fa-cog font-xl"></i>
+          <a href="settings.html"><i class="fas fa-cog font-xl"></i></a>
         </div>
         <form class="header__form form d-f" action="#">
           <input class="form-searchInput" type="text" placeholder="Search news" />
           <button class="form-button"><i class="fas fa-search"></i></button>
         </form>
       </header>
-      <main></main>
+      <main class="main">
+        <section class="main__displaynews" id="displaynews"></section>
+      </main>
       <footer></footer>
     </div>
   </body>

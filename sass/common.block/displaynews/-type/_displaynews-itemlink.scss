@@ -1,0 +1,7 @@
+.displaynews-itemlink {
+  grid-template-columns: 25% 1fr 12.5%;
+  z-index: 2;
+  background: $snow;
+  grid-area: 1/1/2/4;
+  text-decoration: none;
+}

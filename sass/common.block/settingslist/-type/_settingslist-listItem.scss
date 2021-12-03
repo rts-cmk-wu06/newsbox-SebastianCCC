@@ -1,0 +1,10 @@
+.settingslist-listItem {
+  font-size: $font-size-md;
+  font-weight: bold;
+  color: $drab;
+  list-style-type: none;
+  border-bottom: 1px solid $ice;
+  text-transform: uppercase;
+  align-items: center;
+  padding: $padding-size-lg;
+}

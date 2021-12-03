@@ -1,13 +1,28 @@
+@use 'sass:math';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 @import './variables';
 @import './mixin';
 @import './base';
 
+@import './common.block/menu/menu';
 @import './common.block/h1/h1';
 
 @import './common.block/form/form';
 @import './common.block/form/-type/form-searchInput';
 @import './common.block/form/-type/form-button';
+
+@import './common.block/main/__type/main__settingslist';
+@import './common.block/settingslist/settingslist';
+@import './common.block/settingslist/-type/settingslist-listItem';
+@import './common.block/settingslist/-type/settingslist-button';
+
+@import './common.block/displaynews/-type/displaynews-Category';
+@import './common.block/displaynews/-type/displaynews-imgtitle';
+@import './common.block/displaynews/-type/displaynews-listitem';
+@import './common.block/displaynews/__type/displaynews__acticle';
+@import './common.block/displaynews/-type/displaynews-savebutton';
+@import './common.block/displaynews/-type/displaynews-itemlink';
+@import './common.block/displaynews/-type/displaynews-itemimg';
 
 @import './utilities';
